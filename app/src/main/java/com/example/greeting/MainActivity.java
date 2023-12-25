@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String input = editText.getText().toString();
-                Toast.makeText(MainActivity.this, "Welcome" + input, Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Welcome" + " " + input, Toast.LENGTH_LONG).show();
             }
         });
     }
